@@ -1,0 +1,165 @@
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1
+{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    width: 110%;
+}
+
+.container-fluid
+{
+    padding: 3% 15%;
+}
+/* nabbar brand */
+.navbar
+{
+    padding: 0 0 04.5rem;
+}
+.navbar-brand
+{
+    
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.download-button
+{
+
+    margin: 5% 3% 5% 0;
+}
+.title-img
+{
+
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+/* second-section */
+ #features
+{
+    padding: 7% 15% ;
+    background-color: #fff;
+    position: relative;
+} 
+.sub-div
+{
+    text-align: center;
+}
+p
+{
+    color: #8f8f8f;
+} 
+.icon
+{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+.icon:hover
+{
+    color: #ff4c68;
+}
+/* Testimonials */
+#testimonials
+{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-inner
+{
+    padding: 7% 15%;
+}
+h2
+{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonials-img
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo
+{
+    width: 20%;
+    padding: 20px 20px 50px;
+}
+/* pricing section */
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-stuff
+{
+    padding: 3% 2%;
+}
+/* Call to Action */
+#cta
+{
+    background-color: #ff4c68;
+    
+}
+.cta-h3
+{
+    margin-bottom: 7%;
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: #fff;
+}
+.cta-div
+{
+    padding: 10% 20%;
+    text-align: center;
+}
+.cta-btn
+{
+    margin: 20px;
+}
+.footer-div
+{
+    text-align: center;
+    margin: 5% 20%;
+}
+.footer-img 
+{
+    padding: 10px;
+}
+@media (max-width: 1000px)
+{
+    .title-img
+    {
+        transform: rotate(0);
+        position: static;
+    }
+    #title
+    {
+        text-align: center;
+    }
+}
